@@ -1,0 +1,188 @@
+body {
+  background-color: white;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.current-location {
+  color: #272343;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h1 {
+  color: #272343;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.current-temp {
+  text-align: left;
+}
+
+#current-temp-number {
+  color: black;
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+#current-temp-units {
+  color: black;
+  font-size: 15px;
+  position: relative;
+  top: -15px;
+  left: -5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+.dot-full {
+  font-size: 8px;
+  color: #272343;
+}
+.dot-empty {
+  font-size: 8px;
+  color: #272343;
+  opacity: 0.7;
+}
+
+p {
+  color: #272343;
+  font-size: 12px;
+}
+
+.emoji {
+  font-size: 30px;
+  padding: 0%;
+  margin: 0;
+}
+
+.weather-tip {
+  color: #272343;
+  font-size: 12px;
+  text-align: left;
+}
+
+#precipitation {
+  color: #272343;
+  font-size: 12px;
+  text-align: right;
+  opacity: 0.7;
+  margin-bottom: 0;
+}
+
+#wind {
+  color: #272343;
+  font-size: 12px;
+  text-align: right;
+  opacity: 0.7;
+  margin-bottom: 0;
+}
+
+.weather-forecast-temperature-min {
+  color: #272343;
+  font-size: 12px;
+  text-align: right;
+  opacity: 0.7;
+}
+
+.weather-forecast-temperature-max {
+  color: #272343;
+  font-size: 12px;
+  text-align: right;
+}
+
+.sunshine {
+  font-size: 50px;
+  color: #272343;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.sunny-spells {
+  font-size: 100px;
+  color: #272343;
+}
+
+#day {
+  color: #272343;
+  text-align: right;
+  font-size: 20px;
+}
+
+#date {
+  color: #272343;
+  opacity: 0.7;
+  text-align: right;
+  font-size: 15px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+#city {
+  margin-bottom: 0;
+}
+
+.change-city {
+  border: 0;
+  background: none;
+  font-size: 40px;
+  color: #bae8e8;
+}
+
+.overview {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  margin: 10px auto;
+  background-color: #e3f6f5;
+}
+
+.container {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  margin: 10px auto;
+  background-color: #e3f6f5;
+  border-radius: 1%;
+  border: 2px solid #272343;
+  border-radius: 20px;
+}
+
+.forecast-container {
+  padding: 20px;
+  max-width: 600px;
+  color: #fff;
+  margin: 30px auto 10px;
+  border-radius: 10%;
+  background-color: #e3f6f5;
+  border: 2px solid #272343;
+  border-radius: 20px;
+}
+
+.author {
+  color: #272343;
+  font-size: 12px;
+  margin: 0 auto 10px;
+}
+
+.footer {
+  text-align: center;
+}
